@@ -1,0 +1,24 @@
+[3.604s] Invoking command in '/userdata/pyx_ws/body_pose_subscriber': PYTHONPATH=/userdata/pyx_ws/build/body_pose_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/pyx_ws/install/body_pose_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/body_pose_subscriber build --build-base /userdata/pyx_ws/build/body_pose_subscriber/build install --record /userdata/pyx_ws/build/body_pose_subscriber/install.log --single-version-externally-managed install_data
+[4.949s] running egg_info
+[4.953s] writing ../build/body_pose_subscriber/body_pose_subscriber.egg-info/PKG-INFO
+[4.954s] writing dependency_links to ../build/body_pose_subscriber/body_pose_subscriber.egg-info/dependency_links.txt
+[4.955s] writing entry points to ../build/body_pose_subscriber/body_pose_subscriber.egg-info/entry_points.txt
+[4.955s] writing requirements to ../build/body_pose_subscriber/body_pose_subscriber.egg-info/requires.txt
+[4.956s] writing top-level names to ../build/body_pose_subscriber/body_pose_subscriber.egg-info/top_level.txt
+[4.965s] reading manifest file '../build/body_pose_subscriber/body_pose_subscriber.egg-info/SOURCES.txt'
+[4.970s] writing manifest file '../build/body_pose_subscriber/body_pose_subscriber.egg-info/SOURCES.txt'
+[4.971s] running build
+[4.971s] running build_py
+[4.972s] copying body_pose_subscriber/body_pose_subscriber_node.py -> /userdata/pyx_ws/build/body_pose_subscriber/build/lib/body_pose_subscriber
+[4.973s] running install
+[4.975s] running install_lib
+[4.979s] copying /userdata/pyx_ws/build/body_pose_subscriber/build/lib/body_pose_subscriber/body_pose_subscriber_node.py -> /userdata/pyx_ws/install/body_pose_subscriber/lib/python3.10/site-packages/body_pose_subscriber
+[4.982s] byte-compiling /userdata/pyx_ws/install/body_pose_subscriber/lib/python3.10/site-packages/body_pose_subscriber/body_pose_subscriber_node.py to body_pose_subscriber_node.cpython-310.pyc
+[4.988s] running install_data
+[4.989s] running install_egg_info
+[4.998s] removing '/userdata/pyx_ws/install/body_pose_subscriber/lib/python3.10/site-packages/body_pose_subscriber-0.0.1-py3.10.egg-info' (and everything under it)
+[4.999s] Copying ../build/body_pose_subscriber/body_pose_subscriber.egg-info to /userdata/pyx_ws/install/body_pose_subscriber/lib/python3.10/site-packages/body_pose_subscriber-0.0.1-py3.10.egg-info
+[5.004s] running install_scripts
+[5.116s] Installing body_pose_subscriber script to /userdata/pyx_ws/install/body_pose_subscriber/lib/body_pose_subscriber
+[5.118s] writing list of installed files to '/userdata/pyx_ws/build/body_pose_subscriber/install.log'
+[5.315s] Invoked command in '/userdata/pyx_ws/body_pose_subscriber' returned '0': PYTHONPATH=/userdata/pyx_ws/build/body_pose_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/pyx_ws/install/body_pose_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/body_pose_subscriber build --build-base /userdata/pyx_ws/build/body_pose_subscriber/build install --record /userdata/pyx_ws/build/body_pose_subscriber/install.log --single-version-externally-managed install_data

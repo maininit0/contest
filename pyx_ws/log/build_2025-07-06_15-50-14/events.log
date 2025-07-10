@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000836] (body_pose_subscriber) JobQueued: {'identifier': 'body_pose_subscriber', 'dependencies': OrderedDict()}
+[0.002464] (body_pose_subscriber) JobStarted: {'identifier': 'body_pose_subscriber'}
+[0.098978] (-) TimerEvent: {}
+[0.199763] (-) TimerEvent: {}
+[0.300553] (-) TimerEvent: {}
+[0.401312] (-) TimerEvent: {}
+[0.502046] (-) TimerEvent: {}
+[0.602766] (-) TimerEvent: {}
+[0.703468] (-) TimerEvent: {}
+[0.804238] (-) TimerEvent: {}
+[0.904939] (-) TimerEvent: {}
+[1.005638] (-) TimerEvent: {}
+[1.106380] (-) TimerEvent: {}
+[1.207213] (-) TimerEvent: {}
+[1.308048] (-) TimerEvent: {}
+[1.408849] (-) TimerEvent: {}
+[1.509586] (-) TimerEvent: {}
+[1.610293] (-) TimerEvent: {}
+[1.711027] (-) TimerEvent: {}
+[1.811751] (-) TimerEvent: {}
+[1.912462] (-) TimerEvent: {}
+[2.013165] (-) TimerEvent: {}
+[2.113882] (-) TimerEvent: {}
+[2.214668] (-) TimerEvent: {}
+[2.315412] (-) TimerEvent: {}
+[2.416196] (-) TimerEvent: {}
+[2.516996] (-) TimerEvent: {}
+[2.617752] (-) TimerEvent: {}
+[2.718555] (-) TimerEvent: {}
+[2.819373] (-) TimerEvent: {}
+[2.920212] (-) TimerEvent: {}
+[3.021038] (-) TimerEvent: {}
+[3.044421] (body_pose_subscriber) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/body_pose_subscriber', 'build', '--build-base', '/userdata/pyx_ws/build/body_pose_subscriber/build', 'install', '--record', '/userdata/pyx_ws/build/body_pose_subscriber/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/userdata/pyx_ws/body_pose_subscriber', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.211.165 56352 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/root/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.101.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-ee56cb25-a1a1-4357-b798-6e4cdd4145fc.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': '', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/root/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/remote-cli:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-ba775cac44.sock', 'TERM_PROGRAM': 'vscode', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/userdata/pyx_ws/build/body_pose_subscriber', 'SSH_CONNECTION': '192.168.211.165 56352 192.168.211.133 22', 'COLCON': '1', 'PYTHONPATH': '/userdata/pyx_ws/build/body_pose_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/pyx_ws/install/body_pose_subscriber/lib/python3.10/site-packages:'}, 'shell': False}
+[3.121225] (-) TimerEvent: {}
+[3.222018] (-) TimerEvent: {}
+[3.322766] (-) TimerEvent: {}
+[3.423566] (-) TimerEvent: {}
+[3.524422] (-) TimerEvent: {}
+[3.625174] (-) TimerEvent: {}
+[3.725879] (-) TimerEvent: {}
+[3.826631] (-) TimerEvent: {}
+[3.927453] (-) TimerEvent: {}
+[4.028228] (-) TimerEvent: {}
+[4.129032] (-) TimerEvent: {}
+[4.136345] (body_pose_subscriber) StdoutLine: {'line': b'running egg_info\n'}
+[4.140080] (body_pose_subscriber) StdoutLine: {'line': b'writing ../build/body_pose_subscriber/body_pose_subscriber.egg-info/PKG-INFO\n'}
+[4.141140] (body_pose_subscriber) StdoutLine: {'line': b'writing dependency_links to ../build/body_pose_subscriber/body_pose_subscriber.egg-info/dependency_links.txt\n'}
+[4.141874] (body_pose_subscriber) StdoutLine: {'line': b'writing entry points to ../build/body_pose_subscriber/body_pose_subscriber.egg-info/entry_points.txt\n'}
+[4.142498] (body_pose_subscriber) StdoutLine: {'line': b'writing requirements to ../build/body_pose_subscriber/body_pose_subscriber.egg-info/requires.txt\n'}
+[4.143054] (body_pose_subscriber) StdoutLine: {'line': b'writing top-level names to ../build/body_pose_subscriber/body_pose_subscriber.egg-info/top_level.txt\n'}
+[4.158626] (body_pose_subscriber) StdoutLine: {'line': b"reading manifest file '../build/body_pose_subscriber/body_pose_subscriber.egg-info/SOURCES.txt'\n"}
+[4.163718] (body_pose_subscriber) StdoutLine: {'line': b"writing manifest file '../build/body_pose_subscriber/body_pose_subscriber.egg-info/SOURCES.txt'\n"}
+[4.164498] (body_pose_subscriber) StdoutLine: {'line': b'running build\n'}
+[4.165022] (body_pose_subscriber) StdoutLine: {'line': b'running build_py\n'}
+[4.165557] (body_pose_subscriber) StdoutLine: {'line': b'copying body_pose_subscriber/head_zhuan.py -> /userdata/pyx_ws/build/body_pose_subscriber/build/lib/body_pose_subscriber\n'}
+[4.167064] (body_pose_subscriber) StdoutLine: {'line': b'running install\n'}
+[4.168817] (body_pose_subscriber) StdoutLine: {'line': b'running install_lib\n'}
+[4.171846] (body_pose_subscriber) StdoutLine: {'line': b'copying /userdata/pyx_ws/build/body_pose_subscriber/build/lib/body_pose_subscriber/head_zhuan.py -> /userdata/pyx_ws/install/body_pose_subscriber/lib/python3.10/site-packages/body_pose_subscriber\n'}
+[4.174853] (body_pose_subscriber) StdoutLine: {'line': b'byte-compiling /userdata/pyx_ws/install/body_pose_subscriber/lib/python3.10/site-packages/body_pose_subscriber/head_zhuan.py to head_zhuan.cpython-310.pyc\n'}
+[4.179562] (body_pose_subscriber) StdoutLine: {'line': b'running install_data\n'}
+[4.180339] (body_pose_subscriber) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.188793] (body_pose_subscriber) StdoutLine: {'line': b"removing '/userdata/pyx_ws/install/body_pose_subscriber/lib/python3.10/site-packages/body_pose_subscriber-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[4.190346] (body_pose_subscriber) StdoutLine: {'line': b'Copying ../build/body_pose_subscriber/body_pose_subscriber.egg-info to /userdata/pyx_ws/install/body_pose_subscriber/lib/python3.10/site-packages/body_pose_subscriber-0.0.1-py3.10.egg-info\n'}
+[4.194591] (body_pose_subscriber) StdoutLine: {'line': b'running install_scripts\n'}
+[4.229184] (-) TimerEvent: {}
+[4.304226] (body_pose_subscriber) StdoutLine: {'line': b'Installing body_pose_subscriber script to /userdata/pyx_ws/install/body_pose_subscriber/lib/body_pose_subscriber\n'}
+[4.306383] (body_pose_subscriber) StdoutLine: {'line': b"writing list of installed files to '/userdata/pyx_ws/build/body_pose_subscriber/install.log'\n"}
+[4.329364] (-) TimerEvent: {}
+[4.430260] (-) TimerEvent: {}
+[4.499087] (body_pose_subscriber) CommandEnded: {'returncode': 0}
+[4.535391] (-) TimerEvent: {}
+[4.599432] (body_pose_subscriber) JobEnded: {'identifier': 'body_pose_subscriber', 'rc': 0}
+[4.602883] (-) EventReactorShutdown: {}

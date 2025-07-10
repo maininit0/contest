@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/body_pose_subscriber/body_pose_subscriber.egg-info
+writing ../build/body_pose_subscriber/body_pose_subscriber.egg-info/PKG-INFO
+writing dependency_links to ../build/body_pose_subscriber/body_pose_subscriber.egg-info/dependency_links.txt
+writing entry points to ../build/body_pose_subscriber/body_pose_subscriber.egg-info/entry_points.txt
+writing requirements to ../build/body_pose_subscriber/body_pose_subscriber.egg-info/requires.txt
+writing top-level names to ../build/body_pose_subscriber/body_pose_subscriber.egg-info/top_level.txt
+writing manifest file '../build/body_pose_subscriber/body_pose_subscriber.egg-info/SOURCES.txt'
+reading manifest file '../build/body_pose_subscriber/body_pose_subscriber.egg-info/SOURCES.txt'
+writing manifest file '../build/body_pose_subscriber/body_pose_subscriber.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /userdata/pyx_ws/build/body_pose_subscriber/build
+creating /userdata/pyx_ws/build/body_pose_subscriber/build/lib
+creating /userdata/pyx_ws/build/body_pose_subscriber/build/lib/body_pose_subscriber
+copying body_pose_subscriber/body_pose_subscriber_node.py -> /userdata/pyx_ws/build/body_pose_subscriber/build/lib/body_pose_subscriber
+copying body_pose_subscriber/__init__.py -> /userdata/pyx_ws/build/body_pose_subscriber/build/lib/body_pose_subscriber
+running install
+running install_lib
+creating /userdata/pyx_ws/install/body_pose_subscriber/lib/python3.10/site-packages/body_pose_subscriber
+copying /userdata/pyx_ws/build/body_pose_subscriber/build/lib/body_pose_subscriber/body_pose_subscriber_node.py -> /userdata/pyx_ws/install/body_pose_subscriber/lib/python3.10/site-packages/body_pose_subscriber
+copying /userdata/pyx_ws/build/body_pose_subscriber/build/lib/body_pose_subscriber/__init__.py -> /userdata/pyx_ws/install/body_pose_subscriber/lib/python3.10/site-packages/body_pose_subscriber
+byte-compiling /userdata/pyx_ws/install/body_pose_subscriber/lib/python3.10/site-packages/body_pose_subscriber/body_pose_subscriber_node.py to body_pose_subscriber_node.cpython-310.pyc
+byte-compiling /userdata/pyx_ws/install/body_pose_subscriber/lib/python3.10/site-packages/body_pose_subscriber/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /userdata/pyx_ws/install/body_pose_subscriber/share/ament_index
+creating /userdata/pyx_ws/install/body_pose_subscriber/share/ament_index/resource_index
+creating /userdata/pyx_ws/install/body_pose_subscriber/share/ament_index/resource_index/packages
+copying resource/body_pose_subscriber -> /userdata/pyx_ws/install/body_pose_subscriber/share/ament_index/resource_index/packages
+copying package.xml -> /userdata/pyx_ws/install/body_pose_subscriber/share/body_pose_subscriber
+running install_egg_info
+Copying ../build/body_pose_subscriber/body_pose_subscriber.egg-info to /userdata/pyx_ws/install/body_pose_subscriber/lib/python3.10/site-packages/body_pose_subscriber-0.0.1-py3.10.egg-info
+running install_scripts
+Installing body_pose_subscriber script to /userdata/pyx_ws/install/body_pose_subscriber/lib/body_pose_subscriber
+writing list of installed files to '/userdata/pyx_ws/build/body_pose_subscriber/install.log'

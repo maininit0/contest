@@ -1,0 +1,3 @@
+[console_scripts]
+body_pose_subscriber = body_pose_subscriber.body_pose_subscriber_node:main
+
